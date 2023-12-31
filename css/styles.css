@@ -496,6 +496,19 @@ Services
   background: var(--clr-white);
 }
 
+@media screen and (min-width: 676px) {
+  .services-center {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .services-center {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 
 /*
 =============== 
