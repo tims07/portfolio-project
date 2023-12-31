@@ -236,6 +236,15 @@ Navbar
   }
 }
 
+.navbar-fixed {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  background: var(--clr-white);
+  z-index: 2;
+  box-shadow: var(--light-shadow);
+}
+
 /*
 =============== 
 Sidebar
